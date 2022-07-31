@@ -1,11 +1,11 @@
 {
-    "name": "allotropia/fileslibreofficeedit",
-    "description": "Open files with LibreOffice for editing (via WebDav)",
+    "name": "schiesslm/nextcloud_files_open_msoffice",
+    "description": "Nextcloud app to open files with MS Office (via WebDav)",
     "type": "project",
     "license": "AGPL",
     "authors": [
         {
-            "name": "allotropia software GmbH"
+            "name": "Michael Schießl"
         }
     ],
     "require": {},

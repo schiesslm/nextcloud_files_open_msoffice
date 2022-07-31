@@ -1,0 +1,15 @@
+.icon-openmsoffice {
+	background-image: url(/apps/files_open_msoffice/img/app-dark.svg);
+}
+
+.icon-openmsoffice-ms-word {
+	background-image: url(/apps/files_open_msoffice/img/ms-word-color.svg);
+}
+
+.icon-openmsoffice-ms-excel {
+	background-image: url(/apps/files_open_msoffice/img/ms-excel-color.svg);
+}
+
+.icon-openmsoffice-ms-powerpoint {
+	background-image: url(/apps/files_open_msoffice/img/ms-powerpoint-color.svg);
+}

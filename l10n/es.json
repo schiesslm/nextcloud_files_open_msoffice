@@ -1,0 +1,6 @@
+{
+    "translations": {
+        "Open with {appName}" : "Abrir con {appName}"
+        },
+    "pluralForm" :"nplurals=2; plural=(n != 1);"
+}

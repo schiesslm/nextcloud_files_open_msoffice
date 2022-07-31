@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
 /**
- * FilesLibreOfficeEdit - Edit Files with LibreOffice
+ * FilesOpenMSOffice - Open files with Microsoft Office
  *
  * This file is licensed under the Affero General Public License version 3 or
  * later. See the COPYING file.
  *
- * @author Samuel Mehrbrodt <samuel.mehrbrodt@allotropia.de>
+ * @author Michael Schießl <michael.schiessl@liongate.de>
  * @copyright 2021
  * @license GNU AGPL version 3 or any later version
  *
@@ -25,7 +25,7 @@
  *
  */
 
-namespace OCA\FilesLibreOfficeEdit\AppInfo;
+namespace OCA\FilesOpenMSOffice\AppInfo;
 
 use OCP\AppFramework\App;
 use OCP\Util;
@@ -38,13 +38,14 @@ use OCP\Util;
 class Application extends App {
 
 
-	const APP_ID = 'fileslibreofficeedit';
+	const APP_ID = 'files_open_msoffice';
 
 	/**
 	 * @param array $params
 	 */
 	public function __construct(array $params = array()) {
 		parent::__construct(self::APP_ID, $params);
-		Util::addScript(self::APP_ID, 'script');
+		Util::addScript(self::APP_ID, 'openmsoffice');
+		Util::addStyle(self::APP_ID, 'openmsoffice');
 	}
 }
